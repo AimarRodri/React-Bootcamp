@@ -1,0 +1,94 @@
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #727171;
+  border: none;
+}
+
+.calculator-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Arial Black', Arial, sans-serif;
+}
+
+.calculator-pad {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculator-display {
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+.calculator-button {
+  flex: 1 0 21%;
+  margin: 5px;
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  background-color: #666;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculator-button:hover {
+    opacity: .7;
+}
+
+.calculator-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.calculator-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calculator-display .input-field {
+  flex: 1;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.calculator-display .button-delete {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-left: -50px;
+  background-color: #666;
+  border-radius: 10px;
+  border: none;
+}
+
+.themeToggler {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #666;
+  color: #fff;
+  cursor: pointer;
+}
